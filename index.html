@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Don Jaime´s</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="container-logo">
+						<h1 class="logo"><a href="/">Don Jaime' s </a></h1>
+						<i class="fa-solid fa-mug-saucer"></i>
+					</div>
+
+					<div class="container-user">
+						<i class="fa-solid fa-store"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="#home">Inicio</a></li>
+						<li><a href="#categoria">Categorias</a></li>
+						<li><a href="#productos">Productos</a></li>
+						<li><a href="#slider">Nosotros</a></li>
+						<li><a href="#vlog">Vlog</a></li>
+						<li><a href="#frec">Preguntas</a></li>
+					</ul>
+
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
+
+		<section class="banner" id="home">
+			<div class="content-banner">
+				<p>Café Delicioso</p>
+				<h2>100% Natural <br />Café Fresco</h2>
+				<a href="#">Comprar ahora</a>
+			</div>
+		</section>
+
+		<main class="main-content">
+
+			<section class="container top-categories" id="categoria">
+				<h1 class="heading-1">Mejores Categorías</h1>
+				<div class="container-categories">
+					<div class="card-category category-tradicional">
+						<p>Cafe Tradicional</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-leche">
+						<p>Cafe con Leche</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-batidos">
+						<p>Batidos</p>
+						<span>Ver más</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-products" id="productos">
+				<h1 class="heading-1">Mejores Productos</h1>
+
+				<div class="container-options">
+					<span class="active">Destacados</span>
+					<span>Más recientes</span>
+					<span>Mejores Vendidos</span>
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/cafenegroo.png" alt="Cafe Negro" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Café Negro</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$2.500 </p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/cafeleche.png"
+								alt="Cafe cafeleche.png"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Cafe con leche</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$3.000</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/mocka.png"
+								alt="Frappe"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>Frappé</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$8.000</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/machi.jpg" alt="Cafe Macchiato" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Cafe Macchiato</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$10.000</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="slider-frame" id="slider">
+				<h1 class="heading-1">Lo que nos gusta transmitir!</h1>
+				<ul>
+					<li><img src="/img/pexels11.jpeg" alt=""></li>
+					<li><img src="/img/pexels22.jpeg" alt=""></li>
+					<li><img src="/img/pexels33.jpeg" alt=""></li>
+					<li><img src="/img/pexels44.jpeg" alt=""></li>
+				</ul>
+			</div>
+
+			<section class="container specials">
+				<h1 class="heading-1">Especiales</h1>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/machi.jpg" alt="Cafe Macchiato" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Cafe Macchiato</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$10.000 </p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/mocka.png"
+								alt="Frappe"
+							/>
+
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>Frappé</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$8.000</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container blogs" id="vlog">
+				<h1 class="heading-1">Vlogs</h1>
+
+				<div class="container-blogs">
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/blog-1.jpg" alt="Imagen Blog 1" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Sientete en comfort <3</h3>
+							<span>3 de Febrero 2023</span>
+							<p>
+								Un lugar para pasar el rato, de manera individual o en compañia.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/blog-2.jpg" alt="Imagen Blog 2" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Ambiente Agradable</h3>
+							<span>14 de Septiembre 2023</span>
+							<p>
+								Diseñado exclusivamente para la comodidad de nuestros clientes, el mejor servicio y ambiente.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/pexels3.jpg" alt="Imagen Blog 3" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Gran variedad!</h3>
+							<span>29 Noviembre 2023</span>
+							<p>
+								Sin preocupaciones de la cantidad de nuestro catalogo, mejor que sobre a que falte.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<div class="contenedor-acordeon" id="frec">
+				<h2>Preguntas Frecuentes</h2>
+				<div class="acordeon">
+					<input type="radio" name="acordeon" id="btn-acordeon1" class="btn-acordeon">
+					<label for="btn-acordeon1">
+						¿Tienen opciones para personas con restricciones dietéticas?
+					</label>
+					<div class="contenido-acordeon">
+						<p>Sí, ofrecemos opciones para personas con diferentes restricciones dietéticas, como leche de soja, leche de almendras y opciones sin gluten.</p>
+					</div>
+				</div> 
+				<div class="acordeon">
+					<input type="radio" name="acordeon" id="btn-acordeon2" class="btn-acordeon">
+					<label for="btn-acordeon2">
+						¿En que horarios trabajan?
+					</label>
+					<div class="contenido-acordeon">
+						<p>Estamos abiertos de [7.00am] a [6.30pm] todos los días.</p>
+					</div>
+				</div> 
+				<div class="acordeon">
+					<input type="radio" name="acordeon" id="btn-acordeon3" class="btn-acordeon">
+					<label for="btn-acordeon3">
+						¿Aceptan tarjetas de crédito?
+					</label>
+					<div class="contenido-acordeon">
+						<p>Sí, aceptamos todas las principales tarjetas de crédito.</p>
+					</div>
+				</div> 
+				<div class="acordeon">
+					<input type="radio" name="acordeon" id="btn-acordeon4" class="btn-acordeon">
+					<label for="btn-acordeon4">
+						¿Dónde puedo encontrar más información sobre su tienda?
+					</label>
+					<div class="contenido-acordeon">
+						<p>Puedes encontrar más información sobre nuestra tienda en nuestro sitio web, redes sociales o visitándonos en persona.</p>
+					</div>
+				</div> 
+			</div>
+		</main>
+
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: Cra 34a #78-13
+							</li>
+							<li>Teléfono: 3006924178</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: DJS@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<a href="https://www.facebook.com/tostaocafeypan"> 
+								  <i class="fa-brands fa-facebook-f"></i>
+								</a>
+							  </span>
+							<span class="youtube">
+								<a href="https://www.youtube.com/@tostaocafeypan3397">
+									<i class="fa-brands fa-youtube"></i>
+								</a>
+							</span>
+							<span class="instagram">
+								<a href="https://www.instagram.com/tostaocafeypan">
+									<i class="fa-brands fa-instagram"></i>
+								</a>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="Mapa">
+						<p class="title-footer">Donde encontrarnos</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.4884226828425!2d-75.54635577153171!3d6.269820832689194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428be72ed8f07%3A0xf0995d83853f8d6d!2sCra.%2034a%20%2378-13%2C%20Versalles%2C%20Medell%C3%ADn%2C%20Manrique%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1711875103180!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						Don Jaime´s&copy 2024
+					</p>
+				</div>
+			</div>
+		</footer>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
